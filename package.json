@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run Test": "npx playwright test"
+    "run Test": "npx playwright test",
+    "run cucucmber test": "npx cucumber-js --exit",
+    "run tagged test":"npx cucumber-js --tags '@Regression'--exit"
   },
   "keywords": [],
   "author": "",

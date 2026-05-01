@@ -6,9 +6,6 @@ const { LoginPO } = require('../PageObjects/LoginPageObject')
 const JsonObj = JSON.parse(JSON.stringify(require('../Properties/propertyFile.json')))
 
 Given('Login and Verify all UI elements', { timeout: 10000 }, async function () {
-    this.browser = await chromium.launch({ headless: false })
-    this.context = await this.browser.newContext()
-    this.page = await this.context.newPage()
     this.lpo = new LoginPO(this.page, expect)
     await this.lpo.navigateToURL()
     await this.lpo.performLogin(JsonObj.username, JsonObj.password)

@@ -6,9 +6,6 @@ const { chromium } = require('playwright');
 
 
 Given('Navigate to url and login', { timeout: 10000 }, async function () {
-    this.browser = await chromium.launch({ headless: false });
-    this.context = await this.browser.newContext();
-    this.page = await this.context.newPage();
     this.loginFunc = new LoginPO(this.page, expect)
     await this.loginFunc.navigateToURL()
 
