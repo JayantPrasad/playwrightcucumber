@@ -1,0 +1,32 @@
+Project Objectives
+Implement Cucumber BDD for behavior-driven test automation.
+
+Use a property file to manage environment-specific configurations.
+
+Apply the Page Object Model (POM) for clean and maintainable test code.
+
+Derive feature files into step definitions for executable scenarios.
+
+Utilize hooks to manage browser lifecycle and test setup/teardown.
+
+Organize and execute tests using tags for selective runs.
+
+Generate HTML reports for visibility of test results.
+
+🔹 Key Components
+Property File – Centralized configuration for base URLs, credentials, and environment variables.
+
+Page Objects – Encapsulation of UI elements and actions for modular test design.
+
+Feature Files – Gherkin syntax to define user-centric scenarios.
+
+Step Definitions – Mapping of feature steps to Playwright actions.
+
+Hooks – Setup and teardown logic for browser sessions.
+
+Tags – Flexible test grouping and filtering.
+
+HTML Reporting – Automated generation of readable test execution reports.
+
+🔹 Expected Outcome
+By completing this project, you will gain hands-on experience in building a scalable, maintainable test automation framework that mirrors industry practices. It serves as a foundation for integrating advanced features like CI/CD pipelines, parallel execution, and cross-browser testing.
